@@ -1,0 +1,18 @@
+NODE
+1 > Node.js é uma plataforma construída sobre o motor JavaScript do Google Chrome para facilmente construir aplicações de rede rápidas e escaláveis. 
+2 > Node.js usa um modelo de I/O direcionada a evento não bloqueante que o torna leve e eficiente, ideal para aplicações em tempo real com troca intensa de dados através de dispositivos distribuídos. Seus resultados são acessados atravéz de callbacks e promisses (+ - ) 
+3 > Atende ao fluxo de requisições perfeitamente semderrubar o servidor e sem dar 404.  
+4 > Funcinamento parecido com o que acontece no lado do cliente, mas ao invéz de input  de texto, clicks e etc, tmeos eventos dentro do servidor sendo chamados e retornando mensagens.
+
+5 > NPM ou node package manager, gerencia aas dependencias utilizadas dentro da aplicação
+6 > Site do NPM 
+MONGO
+1 > O MongoDB é um banco de dados orientado a documentos, ou seja cada tabela é uma coleção, e os dados são os documentos;
+2 > Não usa a linguagem SQL como padrão e sim um modelo do JS para gerenciar as queries 
+3 > Diferente dos Bancos de dados tradicionais o mongo não usa o  modelo relacional, o que tráz mais flexibilidade ao banco de dados.
+4 > Um objeto do tipo JSON pode ser inserido de forma fácil e rápida no Mongo, e a resposta do bd sempre será um json válido, o que facilita o uso e mesmo a leitura no caso se uso do console mongo.
+5 > Os dados ficam iserisdos e lidos de forma linear no banco dados, sendo que dentro do id de um cliente, podemos ter todas as informações referentes a sem precisar de uma seginda querie ou left join.
+6 > Para quem já está acostumado a usar o PHPMyadmin o mongo possui  uma ferramenta para administrar as collections, o Robomongo, diponivel para MAC OSX, Windows, e distribuições Linux.
+ 
+
+** Dessa forma, já temos uma primeira diferença entre os dois modelos, onde o Banco orientado a documentos lida com documentos e não com registros como no modelo relacional onde tudo é representado usando uma abordagem bidimensional (tabelas representadas através de duas dimensões: linhas e colunas. 
