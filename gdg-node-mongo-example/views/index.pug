@@ -1,0 +1,26 @@
+html
+  head
+    title Index
+    meta(name="viewport" content="width=device-width, user-scalable=no")
+    link(rel="stylesheet" href="/public/fonts/Roboto-Regular.ttf")
+    link(rel="stylesheet" href="/public/css/default.css")
+    link(rel="stylesheet" href="/public/uikit/css/uikit.almost-flat.min.css")
+  body
+  div.uk-grid.uk-margin-left
+    div#form.uk-container.uk-container-center.uk-width-1-1.uk-margin-top
+        form#addUser.uk-form
+            div.uk-form-row
+                input(type="text" placeholder="Nome")#name.uk-width-1-1
+            br
+            div.uk-form-row
+                input(type="text" placeholder="Sobrenome")#lastname.uk-width-1-1
+            div.uk-form-row
+                input(type="text" placeholder="Sobrenome")#lastname.uk-width-1-1
+            div.uk-form-row
+                 textarea.uk-width-1-1 Seu Comentario
+            div.uk-form-row
+                button(type="submit").uk-button.uk-width-1-1.uk-button-primary Enviar
+
+
+    script(src="/public/js/jquery-2.2.3.min.js")
+    script(src="/public/js/handler.js")
